@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mt-2{
+    margin-top: 16px;
+}
+.mt-3{
+    margin-top: 24px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+
+.mb-4{
+    margin-bottom: 32px;
+}
+.mb-5{
+    margin-bottom: 40px;
+}
+.mt-6{
+    margin-top: 48px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mt-9{
+    margin-top: 72px;
+}
+.mb-9{
+    margin-bottom: 72px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 80px;
+    line-height: 94px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #000;
+}
+.block{
+    display: block;
+}
+.subTitle{
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(146, 145, 145, 0.541);
+    font-size: 32px;
+    font-family:Noto Sans ;
+    line-height: 43px;
+}
+
+.subTitle span{
+    font-size: 24px;
+    line-height: 28px;
+    color: #A00404;
+    font-family:Roboto ;
+    margin-left: 16px;
+}
+
+li{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.bg_db{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.subTitle-white{
+    color: #FFFFFF;
+    text-align: center; 
+    padding-bottom: 8px;   
+    border-bottom: 1px solid #fff;
+}
+.subTitle-white span{
+    color: #FFFFFF;
+}
+
+.skills{
+    width: 996px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.skills-content{
+    justify-content: center;
+    margin-top: 48px; 
+    padding-left: 24px;
+    border-left: 1px solid #96a9c4;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.skills-content li{
+    margin-bottom: 20px;
+}
+
+.experience li{
+    margin-bottom: 24px;
+}
+
+.method{
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.method li{
+    margin-bottom: 16px;
+
+}
+.method li>img{
+    margin-right: 24px;
+}
